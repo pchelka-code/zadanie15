@@ -5,35 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li style="color:red;"><a href="#About us" style="color:red;">About us</a></li>
-            <li style="color:blue;"><a href="#Skills" style="color:blue;">Skills</a></li>
-            <li style="color:violet;"><a href="#Portfolio" style="color:violet;">Portfolio</a></li>
-            <li style="color:green;"><a href="#Contact" style="color:green;">Contact</a></li>
+            <li class="red"><a href="#About us" class="red">About us</a></li>
+            <li class="blue"><a href="#Skills" class="blue">Skills</a></li>
+            <li class="violet"><a href="#Portfolio" class="violet">Portfolio</a></li>
+            <li class="green"><a href="#Contact" class="green">Contact</a></li>
         </ul>
     </nav>
 
-    <section id="About us" style="background-color: cornflowerblue;">
+    <section id="About_us">
         <h1>About us</h1>
         <p>Przykładowy tekst czyli na przykład: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis in cupiditate odit, error dicta ex! Magni, nulla nisi velit modi illo accusantium libero reprehenderit. Obcaecati accusamus dolores modi vero sit!</p>
     </section>
 
     <section id="Skills">
         <h1>Skills</h1>
-        <div style="background-color:rgb(78, 231, 78); width:100px; height:100px; display:inline-block;"></div>
-        <div style="background-color:yellow; width:100px; height:100px; display:inline-block;"></div>
-        <div style="background-color:orange; width:100px; height:100px; display:inline-block;"></div>
-        <div style="background-color:olivedrab; width:100px; height:100px; display:inline-block;"></div>
+        <div class="skills div1"></div>
+        <div class="skills div2"></div>
+        <div class="skills div3"></div>
+        <div class="skills div4"></div>
     </section>
 
     <section id="Portfolio">
         <h1>Portfolio</h1>
-        <div style="width: 100px; height: 100px; border: solid; border-color: black;"></div>
-        <div style="width: 100px; height: 100px; border: solid; border-color: red;"></div>
-        <div style="width: 100px; height: 100px; border: solid; border-color: purple;"></div>
+        <div class="portfolio border1"></div>
+        <div class="portfolio border2"></div>
+        <div class="portfolio border3"></div>
     </section>
 
     <section id="Contact">
@@ -48,8 +49,8 @@
             Temat<br>
             <input type="text" name="temat" required><br>
             Wiadomość<br>
-            <input type="text" name="wiadomosc" required; style="height: 200px; width: 400px;"><br><br>
-            <input type="submit" value="wyślij" style="height: 40px; width: 70px; background-color: salmon; color: white;">
+            <input type="text" name="wiadomosc" required><br><br>
+            <input type="submit" value="wyślij">
         </form>
     </section>
 </body>

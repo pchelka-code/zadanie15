@@ -1,0 +1,72 @@
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.violet {
+    color: violet
+}
+
+.green {
+    color: green;
+}
+
+#About_us {
+    background-color: cornflowerblue;
+}
+
+.skills {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.div1 {
+    background-color: olive;
+}
+
+.div2 {
+    background-color: olivedrab;
+}
+
+.div3 {
+    background-color: orange;
+}
+
+.div4 {
+    background-color: greenyellow;
+}
+
+.portfolio {
+    width: 100px;
+    height: 100px;
+    border: solid 3px;
+    margin: 5px;
+}
+
+.border1 {
+    border-color: black;
+}
+
+.border2 {
+    border-color: red;
+}
+
+.border3 {
+    border-color: purple;
+}
+
+input[name="wiadomosc"] {
+    height: 200px;
+    width: 400px;
+}
+
+input[type="submit"] {
+    height: 40px;
+    width: 70px;
+    background-color: salmon;
+    color: white;
+}
